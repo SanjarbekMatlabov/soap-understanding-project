@@ -9,7 +9,7 @@ export const dispatch = (operationType: any, payload:any) => {
     switch(operationType){
         case "createUserRequest":
             return createHandler(payload)
-        case "listUserRequest":
+        case "getAllUsersRequest":
             return listHandler()
         case "deleteUserRequest":
             return deleteHandler(payload)
